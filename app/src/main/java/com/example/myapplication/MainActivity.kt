@@ -12,7 +12,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main) // gives access to the layout and view components
         val button = findViewById<Button>(R.id.helloButton)
         button.setOnClickListener {
-             Log.v("Helloworld", "Hello world")
             Toast.makeText(this, "Hello world", Toast.LENGTH_SHORT).show()
         }
     }
